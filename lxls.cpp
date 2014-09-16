@@ -4,7 +4,6 @@ using namespace ExcelFormat;
 extern "C" {
 #include "lua.h"
 #include "lauxlib.h"
-#include "lstate.h"
 }
 
 #if LUA_VERSION_NUM >= 502
